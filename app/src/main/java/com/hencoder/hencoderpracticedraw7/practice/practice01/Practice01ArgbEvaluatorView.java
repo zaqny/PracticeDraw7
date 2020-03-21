@@ -1,5 +1,7 @@
 package com.hencoder.hencoderpracticedraw7.practice.practice01;
 
+import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -43,5 +45,6 @@ public class Practice01ArgbEvaluatorView extends View {
 
         paint.setColor(color);
         canvas.drawCircle(width / 2, height / 2, width / 6, paint);
+
     }
 }
